@@ -1,16 +1,27 @@
 #main-content {
-	margin: 0 20px 50px
+    margin: 0 15px 50px
 }
 #chicken {
-	background-color: lightyellow;
+    background-color: lightyellow;
 }
 #beef {
-	background-color: pink;
+    background-color: pink;
 }
 #sushi {
-	background-color: lightcyan;
+    background-color: lightcyan;
 }
-#section-1 {
-	background-color: lightgrey;
-	height: 1000px;
+#nav-list a:hover, #nav-list a:focus {
+    background-color: #E7E7E7;
+}
+h3 {
+    padding-top: 10px;
+}
+.row section {
+    padding: 0 10px;
+}
+.row section div {
+    padding: 0 10px;
+}
+.row section div a {
+    text-decoration: underline;
 }
